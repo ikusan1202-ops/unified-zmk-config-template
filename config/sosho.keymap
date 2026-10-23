@@ -31,28 +31,28 @@
         compatible = "zmk,combos";
 
 		//左カーソルのコンボ 19はJのキー 20はKのキーに相当します。
-	    combo_LCLK {
+	    combo_LEFT {
             timeout-ms = <50>;
             key-positions = <19 20>;
             bindings = <&kp LEFT>;
         };
 
 		//右カーソルのコンボ 20 K 21 L
-        combo_RCLK {
+        combo_RIGHT {
             timeout-ms = <50>;
             key-positions = <20 21>;
             bindings = <&kp RIGHT>;
         };
 
 		//上カーソルのコンボ 7 8
-        combo_RCLK {
+        combo_UP {
             timeout-ms = <50>;
             key-positions = <7 8>;
             bindings = <&kp UP>;
         };
 
 		//下カーソルのコンボ 30 K 31 L
-        combo_RCLK {
+        combo_DOWN {
             timeout-ms = <50>;
             key-positions = <31 32>;
             bindings = <&kp DOWN>;
@@ -66,7 +66,7 @@
             bindings = <&mkp MCLK>;
         };
 
-		//バックスペースのコンボ 9 0
+		//バックスペースのコンボ 9 10
 	    combo_BSPC {
             timeout-ms = <90>;
             key-positions = <9 10>;
