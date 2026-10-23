@@ -51,7 +51,7 @@
         };
 
 		//バッスペースのコンボ 9 i 10 o
-	    combo_MCLK {
+	    combo_BSPC {
             timeout-ms = <90>;
             key-positions = <9 10>;
             bindings = <&mkp BSPC>;
