@@ -29,28 +29,44 @@
 /{
     combos {
         compatible = "zmk,combos";
-		//左クリックのコンボ 19はJのキー 20はKのキーに相当します。
+
+		//左カーソルのコンボ 19はJのキー 20はKのキーに相当します。
 	    combo_LCLK {
             timeout-ms = <50>;
             key-positions = <19 20>;
-            bindings = <&mkp LCLK>;
+            bindings = <&kp LEFT>;
         };
 
-		//右クリックのコンボ 20 K 21 L
+		//右カーソルのコンボ 20 K 21 L
         combo_RCLK {
             timeout-ms = <50>;
             key-positions = <20 21>;
-            bindings = <&mkp RCLK>;
+            bindings = <&kp RGFT>;
         };
 
-		//ホイールクリックのコンボ 33 J 34 L
+		//上カーソルのコンボ 7 8
+        combo_RCLK {
+            timeout-ms = <50>;
+            key-positions = <7 8>;
+            bindings = <&kp UP>;
+        };
+
+		//下カーソルのコンボ 30 K 31 L
+        combo_RCLK {
+            timeout-ms = <50>;
+            key-positions = <30 31>;
+            bindings = <&kp DOWN>;
+        };
+
+
+		//ホイールクリックのコンボ 38 39
 	    combo_MCLK {
             timeout-ms = <90>;
-            key-positions = <33 34>;
+            key-positions = <38 39>;
             bindings = <&mkp MCLK>;
         };
 
-		//バッスペースのコンボ 9 i 10 o
+		//バックスペースのコンボ 9 0
 	    combo_BSPC {
             timeout-ms = <90>;
             key-positions = <9 10>;
@@ -68,7 +84,7 @@ keymap {
         bindings = <
             &kp TAB    &kp Q   &kp W  &kp E  &kp R  &kp T      &kp Y  &kp U  &kp I      &kp O    &kp P     &kp BSPC
             &kp LCTRL  &kp A   &kp S  &kp D  &kp F  &kp G      &kp H  &kp J  &kp K      &kp L    &kp SQT   &kp ENTER
-            &kp LSHFT  &kp Z   &kp X  &kp C  &kp V  &kp B      &kp N  &kp M  &kp LCLK   &mkp RCLK &mkp SLASH &kp LSHFT
+            &kp LSHFT  &kp Z   &kp X  &kp C  &kp V  &kp B      &kp N  &kp M  &mkp LCLK   &mkp RCLK &kp SLASH &kp LSHFT
             &kp ESC    &kp LALT              &mo 2  &kp SPACE  &mo 1  &kp LA(GRAVE)              &mo 3     &kp LGUI
         >;
 		//&ec_ms_lとrは、上のビヘイビアで作ったもの。
