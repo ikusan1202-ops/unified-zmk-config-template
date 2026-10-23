@@ -41,7 +41,7 @@
         combo_RCLK {
             timeout-ms = <50>;
             key-positions = <20 21>;
-            bindings = <&kp RGFT>;
+            bindings = <&kp RIGFT>;
         };
 
 		//上カーソルのコンボ 7 8
@@ -74,14 +74,14 @@
         };
 
 		//デリートのコンボ 30 31
-	    combo_BSPC {
+	    combo_DEL {
             timeout-ms = <90>;
             key-positions = <30 31>;
             bindings = <&kp DEL>;
         };
 
 		//エスケープのコンボ 27 28
-	    combo_BSPC {
+	    combo_ESP {
             timeout-ms = <90>;
             key-positions = <27 28>;
             bindings = <&kp ESP>;
