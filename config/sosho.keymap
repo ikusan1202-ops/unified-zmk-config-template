@@ -43,13 +43,19 @@
             bindings = <&mkp RCLK>;
         };
 
-		//ホイールクリックのコンボ 19 J 21 L
+		//ホイールクリックのコンボ 33 J 34 L
 	    combo_MCLK {
             timeout-ms = <90>;
-            key-positions = <19 21>;
+            key-positions = <33 34>;
             bindings = <&mkp MCLK>;
         };
 
+		//バッスペースのコンボ 9 i 10 o
+	    combo_MCLK {
+            timeout-ms = <90>;
+            key-positions = <9 10>;
+            bindings = <&mkp BSPC>;
+        };
     };
 };
 
