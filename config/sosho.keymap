@@ -107,7 +107,7 @@ keymap {
             &kp TAB    &kp Q   &kp W  &kp E  &kp R  &kp T        &kp Y  &kp U  &kp I      &kp O      &kp P     &kp LA(GRAVE) 
             &kp LCTRL  &kp A   &kp S  &kp D  &kp F  &kp G        &kp H  &kp J  &kp K      &kp L      &kp SQT   &kp ENTER
             &kp LSHFT  &kp Z   &kp X  &kp C  &kp V  &kp B        &kp N  &kp M  &mkp LCLK  &mkp RCLK  &kp SLASH &kp LSHFT
-            &kp ESC    &kp LGUI              &kp LALT &kp SPACE  &mo 2  &my_lt SPACE              &mo 3     &kp LGUI
+            &kp ESC    &kp LGUI              &kp LALT &kp SPACE  &mo 2  &my_lt 1 SPACE              &mo 3     &kp LGUI
         >;
 		//&ec_ms_lとrは、上のビヘイビアで作ったもの。
         sensor-bindings = <&ec_ms_l SCRL_LEFT SCRL_RIGHT &ec_ms_r SCRL_DOWN SCRL_UP>;
