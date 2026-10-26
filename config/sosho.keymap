@@ -98,7 +98,7 @@
 	    combo_UNDER {
             timeout-ms = <90>;
             key-positions = <16 7>;
-            bindings = <&kp LS(BSLH)>;
+            bindings = <&kp LS(MINUS)>;
         };
 
 		//カンマのコンボ 16 32
