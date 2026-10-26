@@ -113,7 +113,7 @@
             timeout-ms = <90>;
             key-positions = <16 33>;
             bindings = <&kp DOT>;
-	   
+	       };
     };
 };
 
