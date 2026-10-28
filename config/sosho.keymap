@@ -141,7 +141,7 @@
 	    };
 
 		//チルダのコンボ 16 30
-	    combo_DOT {
+	    combo_TILDE {
             timeout-ms = <90>;
             key-positions = <16 30>;
             bindings = <&kp TILDE>;
