@@ -176,7 +176,7 @@ keymap {
         bindings = <
             &kp GRAVE	&kp N1			&kp N2			&kp N3			&kp N4			&kp N5					&kp N6       &kp N7      &kp N8       		&kp N9    		&kp N0  	 	&kp MINUS
             &kp LCTRL	&kp JP_LBRACKET	&kp	JP_RBRACKET	&kp	JP_LBRACE	&kp	JP_RBRACE	&kp JP_BACKQUOTE		&kp JP_CARET &kp JP_PLUS &kp JP_ASTERISK 	&kp SLASH 		&kp SEMI	 	&kp ENTER
-            &kp LSHFT	&trans 			&trans 			&trans 			&trans 			&trans        			&kp LT  	 &kp GT		 &kp JP_PIPE	  	&kp JP_YEN		&trans			&trans
+            &kp LSHFT	&kp JP_PIPE	  	&kp JP_YEN		&kp JP_LPAREN	&kp JP_RPAREN	&trans        			&kp LT  	 &kp GT		 &kp COMMA		  	&kp DOT			あ&trans			&trans
             &kp LCTRL &kp LGUI             								&kp LALT 		&kp LALT				&kp LALT	 &trans                     					&trans			&trans
         >;
     };
