@@ -65,28 +65,28 @@
 
 		//左カーソルのコンボ 19はJのキー 20はKのキーに相当します。
 	    combo_LEFT {
-            timeout-ms = <50>;
+            timeout-ms = <90>;
             key-positions = <19 20>;
             bindings = <&kp LEFT>;
         };
 
 		//右カーソルのコンボ 20 K 21 L
         combo_RIGHT {
-            timeout-ms = <50>;
+            timeout-ms = <90>;
             key-positions = <20 21>;
             bindings = <&kp RIGHT>;
         };
 
 		//上カーソルのコンボ 7 8
         combo_UP {
-            timeout-ms = <50>;
+            timeout-ms = <90>;
             key-positions = <7 8>;
             bindings = <&kp UP>;
         };
 
 		//下カーソルのコンボ 30 K 31 L
         combo_DOWN {
-            timeout-ms = <50>;
+            timeout-ms = <90>;
             key-positions = <31 32>;
             bindings = <&kp DOWN>;
         };
@@ -139,6 +139,13 @@
             key-positions = <16 33>;
             bindings = <&kp DOT>;
 	    };
+
+		//チルダのコンボ 16 30
+	    combo_DOT {
+            timeout-ms = <90>;
+            key-positions = <16 30>;
+            bindings = <&kp TILDE>;
+	    };
     };
 };
 
@@ -160,10 +167,10 @@ keymap {
 	
     layer_1 {
         bindings = <
-            &kp GRAVE &kp N1  &kp N2  &kp N3  &kp N4  &kp N5      	 	&kp N6       &kp N7      &kp N8       &kp N9    	&kp N0  	 	&kp MINUS
-            &kp LCTRL &trans &trans &trans &trans &trans        	 	&kp JP_CARET &kp JP_PLUS &kp JP_ASTERISK &kp SLASH 	&kp SEMI	 	&kp ENTER
-            &kp LSHFT &trans &trans &trans &trans &trans         	 	&trans   	 &trans		 &trans		  &trans    	&trans			&trans
-            &kp LCTRL &kp LGUI             &kp LALT &kp LALT     	 	&kp LALT	 &trans                     			&trans			&trans
+            &kp GRAVE	&kp N1			&kp N2			&kp N3			&kp N4			&kp N5					&kp N6       &kp N7      &kp N8       		&kp N9    	&kp N0  	 	&kp MINUS
+            &kp LCTRL	&kp JP_LBRACKET	&kp	JP_RBRACKET	&kp	JP_LBRACE	&kp	JP_LBRACE	&kp	   		 			&kp JP_CARET &kp JP_PLUS &kp JP_ASTERISK 	&kp SLASH 	&kp SEMI	 	&kp ENTER
+            &kp LSHFT	&trans 			&trans 			&trans 			&trans 			&trans        			&kp LT  	 &kp GT		 &kp PIPE		  	&kp BSLH   	&trans			&trans
+            &kp LCTRL &kp LGUI             								&kp LALT 		&kp LALT				&kp LALT	 &trans                     			&trans			&trans
         >;
     };
 
