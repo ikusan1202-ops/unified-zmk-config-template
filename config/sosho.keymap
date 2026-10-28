@@ -144,7 +144,7 @@
 	    combo_TILDE {
             timeout-ms = <90>;
             key-positions = <16 30>;
-            bindings = <&kp TILDE>;
+            bindings = <&kp JP_TILDE>;
 	    };
     };
 };
