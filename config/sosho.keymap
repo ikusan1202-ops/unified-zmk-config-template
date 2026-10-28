@@ -146,6 +146,13 @@
             key-positions = <16 30>;
             bindings = <&kp JP_TILDE>;
 	    };
+
+		//クエスチョンのコンボ 1 19
+	    combo_QMARK {
+            timeout-ms = <90>;
+            key-positions = <1 19>;
+            bindings = <&kp JP_QMARK>;
+	    };
     };
 };
 
