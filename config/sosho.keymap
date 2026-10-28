@@ -151,7 +151,7 @@
 	    combo_QMARK {
             timeout-ms = <90>;
             key-positions = <1 19>;
-            bindings = <&kp JP_QMARK>;
+            bindings = <&kp QMARK>;
 	    };
     };
 };
