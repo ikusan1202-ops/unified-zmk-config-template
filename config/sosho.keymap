@@ -179,7 +179,7 @@ keymap {
             &kp LSHFT	&kp JP_PIPE	  	&kp JP_YEN		&kp JP_LPAREN	&kp JP_RPAREN	&kp &kp JP_DQUOTE			&kp LT  	 &kp GT		 &kp COMMA		  	&kp DOT			&kp JP_EQUAL	&trans
             &kp LCTRL 	&kp LGUI             							&kp LALT 		&kp LALT					&kp LALT	 &trans                     					&trans			&trans
         >;
-    };ｋ
+    };
 
     layer_2 {
         bindings = <
