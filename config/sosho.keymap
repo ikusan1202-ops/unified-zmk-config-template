@@ -165,7 +165,7 @@ keymap {
         bindings = <
             &kp TAB    &kp Q   &kp W  &kp E  &kp R  &kp T  		     												&kp Y  &kp U  &kp I      &kp O      &kp P     	&kp JP_AT 
             &kp LCTRL  &kp A   &kp S  &kp D  &kp F  &kp G   	     												&kp H  &kp J  &kp K      &kp L      &kp SQT   	&kp ENTER
-            &kp LSHFT  &kp Z   &kp X  &kp C  &kp V  &kp B      		 												&kp N  &kp M  &mkp LCLK  &mkp RCLK  &mkp MCLK 	&kp LSHFT
+            &kp LSHFT  &kp Z   &kp X  &kp C  &kp V  &kp B      		 												&kp N  &kp M  &mkp LCLK  &mkp RCLK  &mkp MCLK 	&mt LSHFT MINUS
             &kp LCTRL  &kp LGUI              &kp LALT &my_lt 3 SPACE 												&mo 2  &my_lt 1 SPACE              	&mo 3  		&kp LCTRL
         >;
 		//&ec_ms_lとrは、上のビヘイビアで作ったもの。
