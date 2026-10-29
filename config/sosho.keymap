@@ -172,7 +172,7 @@ keymap {
     default_layer {
         bindings = <
             &kp TAB    &kp Q   &kp W  &kp E  &kp R  &kp T  		     												&kp Y  &kp U  &kp I      &kp O      &kp P     	&kp JP_AT 
-            &kp LCTRL  &kp A   &kp S  &kp D  &kp F  &kp G   	     												&kp H  &kp J  &kp K      &kp L      &kp SQT   	&kp ENTER
+            &kp LCTRL  &kp A   &kp S  &kp D  &kp F  &kp G   	     												&kp H  &kp J  &kp K      &kp L      &kp SQT     &my_mt LCTRL ENTER
             &kp LSHFT  &kp Z   &kp X  &kp C  &kp V  &kp B      		 												&kp N  &kp M  &mkp LCLK  &mkp RCLK  &mkp MCLK 	&my_mt LSHFT MINUS
             &kp LCTRL  &kp LGUI              &kp LALT &my_lt 3 SPACE 												&mo 2  &my_lt 1 SPACE              	&mo 3  		&kp LCTRL
         >;
@@ -183,9 +183,9 @@ keymap {
     layer_1 {
         bindings = <
             &kp GRAVE	&kp N1			&kp N2			&kp N3			&kp N4			&kp N5						&kp N6       &kp N7      &kp N8       		&kp N9    		&kp N0  	 	&kp MINUS
-            &kp LCTRL	&kp JP_LBRACKET	&kp	JP_RBRACKET	&kp	JP_LBRACE	&kp	JP_RBRACE	&kp JP_BACKQUOTE			&kp JP_CARET &kp JP_PLUS &kp JP_ASTERISK 	&kp SLASH 		&kp SEMI	 	&trans
-            &kp LSHFT	&kp JP_PIPE	  	&kp JP_YEN		&kp JP_LPAREN	&kp JP_RPAREN	&kp JP_DQUOTE				&kp LT  	 &kp GT		 &kp COMMA		  	&kp DOT			&kp JP_EQUAL	&trans
-            &kp LCTRL 	&kp LGUI             							&kp LALT 		&kp LALT					&kp LALT	 &trans                     					&trans			&trans
+            &trans		&kp JP_LBRACKET	&kp	JP_RBRACKET	&kp	JP_LBRACE	&kp	JP_RBRACE	&kp JP_BACKQUOTE			&kp JP_CARET &kp JP_PLUS &kp JP_ASTERISK 	&kp SLASH 		&kp SEMI	 	&trans
+            &trans		&kp JP_PIPE	  	&kp JP_YEN		&kp JP_LPAREN	&kp JP_RPAREN	&kp JP_DQUOTE				&kp LT  	 &kp GT		 &kp COMMA		  	&kp DOT			&kp JP_EQUAL	&trans
+            &trans	 	&kp LGUI             							&kp LALT 		&kp LALT					&kp LALT	 &trans                     					&trans			&trans
         >;
     };
 
