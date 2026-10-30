@@ -38,10 +38,7 @@ https://zmk.dev/docs/keymaps/input-processors
 
     scroller {
         layers = <3>;
-		input-processors = <
-            &zip_xy_to_scroll_mapper
-            &zip_scroll_x_scaler 0 1
-        >;
+		input-processors = <&zip_xy_to_scroll_mapper>;
     };
 };
 
