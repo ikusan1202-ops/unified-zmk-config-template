@@ -1,4 +1,4 @@
-#include "sosho_R.dtsi"
+n#include "sosho_R.dtsi"
 
 /*
 glidepoint_listnerは右手のトラックパッド
@@ -42,7 +42,7 @@ https://zmk.dev/docs/keymaps/input-processors
 &glidepoint_split { status = "okay"; };
 &glidepoint_split_listener {
     status = "okay";
-	input-processors = <&zip_xy_scaler 2 1>;
+	input-processors = <&zip_xy_scaler 3 2>;
 };
 
 &trackball_split { status = "okay"; };
