@@ -161,6 +161,27 @@
             key-positions = <1 19>;
             bindings = <&kp QMARK>;
 	    };
+
+		//エクスプラメーションのコンボ 3 19
+	    combo_EXCL {
+            timeout-ms = <90>;
+            key-positions = <3 19>;
+            bindings = <&kp EXCL>;
+	    };
+
+		//パイプのコンボ 16 10
+	    combo_EXCL {
+            timeout-ms = <90>;
+            key-positions = <16 10>;
+            bindings = <&kp JP_PIPE>;
+	    };
+
+		//yenのコンボ 16 6
+	    combo_EXCL {
+            timeout-ms = <90>;
+            key-positions = <16 6>;
+            bindings = <&kp JP_YEN>;
+	    };
     };
 };
 
@@ -176,7 +197,7 @@ keymap {
             &kp LSHFT  &kp Z   &kp X  &kp C  &kp V  	&kp B      		 												&kp N  			&my_lt 3 M 			&mkp LCLK  	&mkp RCLK  	&mkp MCLK 	&my_mt LSHFT MINUS
             &kp LCTRL  &kp LGUI              &kp LALT 	&my_mt LSHIFT SPACE 											&my_lt 2 SPACE  &my_lt 1 SPACE      			        	&mo 3  		&kp LCTRL
         >;
-		//&ec_ms_lとrは、上のビヘイビアで作ったもの。
+		//&ec_ms_lとrは、上のビヘイビアで作ったもの。;
         sensor-bindings = <&ec_ms_l SCRL_LEFT SCRL_RIGHT &ec_ms_r SCRL_DOWN SCRL_UP>;
     };
 	
@@ -192,7 +213,7 @@ keymap {
     layer_2 {
         bindings = <
             &trans		&kp F1		&kp F2			&kp F3		&kp F4		&kp F5										&kp F6			  		&kp F7	 	   	&kp F8		   	&kp F9			&kp F10				&kp F11
-            &trans		&kp EXCL	&trans			&trans		&trans		&trans      								&trans 		 			&trans	 		&kp JP_PIPE		&kp JP_YEN   	&kp JP_BACKQUOTE	&kp F12
+            &trans		&kp EXCL	&trans			&trans		&trans		&trans      								&trans 		 			&trans	 		&trans			&trans   	&kp JP_BACKQUOTE	&kp F12
             &trans		&trans		&trans			&trans		&trans 		&trans     									&trans			  		&trans   	 	&trans   		&trans		    &trans				&trans
 			&trans		&trans									&trans	 	&trans										&trans					&trans											&trans				&trans
         >;
