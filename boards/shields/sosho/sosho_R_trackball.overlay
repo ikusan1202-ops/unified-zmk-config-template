@@ -1,4 +1,4 @@
-n#include "sosho_R.dtsi"
+#include "sosho_R.dtsi"
 
 /*
 glidepoint_listnerは右手のトラックパッド
