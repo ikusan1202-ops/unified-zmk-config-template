@@ -187,7 +187,7 @@
 	    combo_hash {
             timeout-ms = <90>;
             key-positions = <16 18>;
-            bindings = <&kp JP_HASH>;
+            bindings = <&kp HASH>;
 	    };
 
 		//dollerのコンボ
